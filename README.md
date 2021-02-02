@@ -18,6 +18,9 @@ To start the sample application and the supporting services:
 ```
 docker-compose up -d
 ```
+```
 sudo python3 main.py
+```
 
+Make sure you've set the right IP in prometheus.yaml
 
