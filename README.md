@@ -1,8 +1,13 @@
-# Sample application for tutorials
+# Sample application
 
 This repository represents a Tutorial how to expose sensor Data from the BME280 to a prometheus Service and a Grafana Dashboard
 
+
 ## Prequisites
+
+You need a: 
+- Raspberry
+- BME280 Sensor
 
 You will need to have the following installed locally to complete this workshop:
 
