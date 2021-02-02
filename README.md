@@ -8,7 +8,7 @@ This repository represents a Tutorial how to expose sensor Data from the BME280 
 You need a: 
 - Raspberry
 - BME280 Sensor
-# On your Desktop:
+### On your Desktop:
 You will need to have the following installed locally to complete this workshop:
 
 - [Docker](https://docs.docker.com/install/)
@@ -16,7 +16,7 @@ You will need to have the following installed locally to complete this workshop:
 
 If you're running Docker for Desktop for macOS or Windows, Docker Compose is already included in your installation.
 
-# On your Pi_
+### On your Pi_
 ```
 sudo apt-get update 
 sudo apt-get upgrade
@@ -28,17 +28,17 @@ sudo pip3 install flask
 
 To start the sample application and the supporting services:
 
-# On your Desktop:
+### On your Desktop:
 ```
 docker-compose up -d
 ```
 
-# On your Pi:
+### On your Pi:
 ```
 sudo python3 main.py
 ```
 ## Config Prometheus/Grafana:
-# On your Desktop:
+### On your Desktop:
 Make sure you've set the right IP in prometheus.yaml
 
 You will also need to add Prometheus as a Datasource in your Grafana Application
