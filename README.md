@@ -11,6 +11,13 @@ You will need to have the following installed locally to complete this workshop:
 
 If you're running Docker for Desktop for macOS or Windows, Docker Compose is already included in your installation.
 
+```
+sudo apt-get update 
+sudo apt-get upgrade
+sudo pip3 install flask
+
+```
+
 ## Running
 
 To start the sample application and the supporting services:
