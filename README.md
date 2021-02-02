@@ -36,6 +36,12 @@ sudo python3 main.py
 
 Make sure you've set the right IP in prometheus.yaml
 
+
 You will also need to add Prometheus as a Datasource in your Grafana Application
 
+- URL = http://prometheus:9090 #Default
+
 Simply just type .. bme in the QL Query and autocomplete will show you the sensor datas
+
+## Screenshots
+| ![Setup](grafana.png)
