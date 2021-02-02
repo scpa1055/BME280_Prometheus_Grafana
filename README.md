@@ -44,6 +44,4 @@ You will also need to add Prometheus as a Datasource in your Grafana Application
 Simply just type .. bme in the QL Query and autocomplete will show you the sensor datas
 
 ## Screenshots
-| ![GrafanaSetup](screenshot/grafana.png)
-|---|
-|GrafanaSetup
+![grafana setup](screenshot/grafana.PNG)
